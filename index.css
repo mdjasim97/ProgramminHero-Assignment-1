@@ -1,0 +1,609 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Inter', sans-serif; */
+}
+
+
+
+
+/* Banner Section Style Code Start Here */
+
+.banner-sec{
+    width: 1320px;
+    height: 600px;
+    background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%), url("./images/Banner-Image.png"); /* Google and Youtube Search */
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.banner-text{
+    color: white;
+}
+
+
+.wish-year{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 200px 20px 0 0;
+}
+
+.wish-title{
+    color: #FFF;
+    font-size: 72px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Banner Section Style Code End Here */
+
+
+
+
+
+
+
+
+/* Discount section Style code Start Here */
+.discount-sec{
+    width: 800px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.discount-rate{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 25px 0px;
+}
+
+
+.dis-sec-greeting{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 25px 0 15px 0;
+}
+
+
+.categories{
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.new-year-photo{
+    margin: 50px 0 100px 0;
+}
+
+/* Discount Section Style code End Here */
+
+
+
+
+
+
+
+/* Welcome Section Style code Start Here */
+
+.welcome-banner{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("./images/Vectorrr.png");
+    display: flex;
+}
+
+
+.Welcome-content{
+    width: 695px;
+    margin: 100px 0 0 120px;
+}
+
+.welcome-title{
+    color: #FFF;
+    font-family: 'Merriweather sans';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+
+.welcome-desc{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 20px 0 0 0;
+}
+
+.btn-area{
+    padding: 50px 0px 0px 50px;
+}
+
+.btn-primary{
+    border: none;
+    background-color: rgb(253, 0, 0);
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.pic-2024{
+    padding: 100px 50px 80px 50px;
+    display: flex;
+}
+
+
+/* Welcome Section Style code End Here */
+
+
+
+
+
+
+
+
+/* Time and Place Style Code Start Here */
+.place-section{
+    width: 1320px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #ffdddd;
+}
+
+.place-time{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    padding: 100px;
+}
+
+span{
+    color: #ff0000;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.place-btn{
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+
+/* Time and Place Style Code End Here */
+
+
+
+
+
+
+
+
+
+/* Celebrate year Section style code start here */
+
+.year-celebrate{
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.clebration{
+    width: 380;
+    height: auto;
+}
+
+.offer-sub-title{
+    font-size: 25px;
+    color: #F00;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.offer-title{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+
+.offer-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    width: 400px;
+    font-size: 25px;
+    font-style: normal;
+    padding: 0 20px 0 0;
+    font-weight: 400;
+}
+
+
+
+.img{
+    border: 15px solid red;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+
+
+.new-year-div{
+    width: 393px;
+    margin-left: 450px;
+}
+
+
+.year{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.year-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    width: 400px;
+    font-size: 25px;
+    font-style: normal;
+    padding: 25px 0;
+    font-weight: 400;
+}
+
+/* Celebrate year Section style code End here */
+
+
+
+
+
+
+
+
+
+/* Holyday Special Offer Section Style code Start Here */
+
+
+.special-holyday-sec{
+    width: 1320px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.Holyday-subtitle{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.Holyday-title{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 25px 0;
+}
+
+.Holyday-span{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.Holyday-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.Holyday-bottom{
+    background-image: url("/images/Rectangle-2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.girl-div{
+    background-image: url("./images/Rectangle-1.png");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 600px;
+    position: relative; /* Google Search */
+}
+
+.percent-50{
+    position: absolute; /* Google Search */
+    top: 100px;  /* Google Search */
+    right: 250px; /* Google Search */
+}
+
+/* Holyday Special Offer Section Style code End Here */
+
+
+
+
+
+
+
+
+
+
+/* Product Section Style code Start Here */
+
+.product-section{
+    width: 1320px;
+    height: auto;
+    margin: 100px auto;
+}
+
+
+.product-subtitle{
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.product-title{
+    color: #070211;
+    font-family: 'Merriweather Sans' sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 25px 0;
+      /* font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Inter', sans-serif; */
+}
+
+
+
+.product-desc{
+    width: 800px;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+
+
+.product-bottom-part{
+    margin: 80px 0px 0px 0px;
+
+}
+
+.product-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.img-card{
+    width: 440px;
+    padding: 0px 35px 35px 0px;
+}
+
+/* Product Section Style code End Here */
+
+
+
+
+
+
+
+/* Subscribe Section Style code Start Here */
+
+.subcribe-section{
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #fff2f2;
+    text-align: center;
+}
+
+.subscribe-content{
+    padding: 100px;
+}
+
+
+.subscribe-title{
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather sans' ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 25px 0;
+}
+
+
+.subscribe-desc{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;   
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.subscribe-form{
+    width: 550px;
+    padding: 25px 0;
+    display: flex;
+    margin: 0 auto;
+}
+
+.subscribe-input{
+    width: 350px;
+    border: none;
+    font-size: 25px;
+    color: #474747;
+    padding: 10px 0 10px 35px;
+    border-radius: 50px 0 0 50px;
+}
+
+
+.subscribe-btn{
+    width: 150px;
+    background-color: #F00;
+    font-size: 25px;
+    color: #FFF;
+    padding: 10px 0px 10px 0px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+
+/* Subscribe Section Style code End Here */
+
+
+
+
+
+/* Footer Section Style code Start Here */
+
+.footer{
+    width: 1320px;
+    margin: 0 auto;
+    background: #070211;
+}
+
+.footer-top{
+    color: #FFF;
+    padding: 120px 120px 20px 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-top address{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.footer-contact{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.contact-phn{
+    display: flex;
+}
+
+.phn-icon{
+    padding: 0 15px;
+}
+
+.contact-web{
+    margin: 10px 0;
+    display: flex;
+}
+
+.web-icon{
+    padding: 0 15px;
+}
+
+.footer-hr{
+    width: 1100px;
+    margin: 0 auto;
+    color: #474747;
+}
+
+
+.footer-icons{
+    margin: 30px 120px;
+    text-align: center;
+}
+
+.icon{
+    padding: 20px;
+}
+
+
+
+.footer-bottom{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 50px 120px 120px 120px;
+}
+
+/* Footer Section Style code End Here */
+
+
+
+
+
