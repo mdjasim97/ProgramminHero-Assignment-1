@@ -349,7 +349,7 @@ span{
 
 
 .Holyday-bottom{
-    background-image: url("/images/Rectangle-2.png");
+    background-image: url("./images/Rectangle-2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     margin-top: 60px;
